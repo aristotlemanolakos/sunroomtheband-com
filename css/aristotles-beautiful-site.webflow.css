@@ -237,6 +237,10 @@
 }
 
 @media screen and (max-width: 479px) {
+  .header-nav {
+    margin-bottom: 20px;
+  }
+
   .container-m {
     padding-left: 8px;
     padding-right: 8px;
@@ -244,6 +248,10 @@
 
   .text-block {
     font-size: 10vw;
+  }
+
+  .tour {
+    padding-top: 20px;
   }
 
   .quick-stack {
@@ -256,7 +264,7 @@
   }
 
   .footer {
-    margin-top: 0;
+    margin-top: 20px;
   }
 
   .link {
