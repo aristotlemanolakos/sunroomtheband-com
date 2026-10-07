@@ -16,3 +16,5 @@ Run `python3 -m http.server 4188 --bind 127.0.0.1` from this directory, then ope
 Tour dates and ticket destinations come directly from the official Seated widget for artist `1c296b62-808e-4308-9d64-caf638c93409`. Changes in Seated appear automatically. Internet access is required for the widget; an unavailable widget shows recovery actions instead of an empty section.
 
 Cloudflare Pages project: `sunroomtheband`, connected to this GitHub repository. Serve the repository root as-is; no build command is required. Push the `staging` branch for the review deployment. Keep release work on `main` separate from staging.
+
+Share artwork uses the supplied logo in white on the site blue (`#155cab`), exported at 1200 × 630. The favicon and Apple touch icon use the star extracted from that same logo. Editable SVG sources and browser-ready PNGs are in `images/`. Social metadata points to the staging image so previews work before production is updated. When promoting to production, change `og:url`, `og:image`, and `twitter:image` to the corresponding `https://sunroomtheband.com/` URLs.
